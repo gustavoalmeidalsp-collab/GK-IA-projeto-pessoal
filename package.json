@@ -1,0 +1,22 @@
+{
+  "name": "gkia-task-orchestrator",
+  "version": "0.1.0",
+  "description": "Dependency-free sequential task orchestrator by GKIA Assistente / GK Smart Soluções",
+  "license": "MIT",
+  "private": false,
+  "type": "commonjs",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "example": "node examples/basic.js",
+    "check": "node --check src/orchestrator.js && node --check src/index.js && node --check examples/basic.js && node --check test/orchestrator.test.js"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ]
+}
